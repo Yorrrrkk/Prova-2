@@ -110,7 +110,7 @@ puts "$ip_dir"
 create_project -force $prj_name $prj_dir -part $prj_part
 update_ip_catalog
 
-set_property board_part tul.com.tw:pynq-z2:part0:1.0 [current_project]
+set_property board_part tul.com.tw:pynq-z1:part0:1.0 [current_project]
 
 #Add PYNQZ2 XDC
 #add_files -fileset constrs_1 -norecurse "${xdc_dir}/pynqz2.xdc"
